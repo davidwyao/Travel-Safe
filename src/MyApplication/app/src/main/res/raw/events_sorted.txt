@@ -1,0 +1,14 @@
+flood,Flash Flood,Flood,Coastal Flood,Lakeshore Flood,Storm Surge/Tide 
+wind,Thunderstorm Wind,Marine Thunderstorm Wind,Marine Strong Wind,Strong Wind,Marine High Wind,High Wind
+tornado,Tornado,Funnel Cloud,Waterspout
+cold,Hail,Marine Hail,Winter Storm,Blizzard,Heavy Snow,Lake-Effect Snow,Sleet,Ice Storm
+extreme_cold,Extreme Cold/Wind Chill,Cold/Wind Chill,Winter Weather,Frost/Freeze
+wave,Rip Current,High Surf,Sneakerwave,Seiche
+heat,Excessive Heat,Heat,Drought
+duststorm,Dust Devil,Dust Storm
+rain_lightning,Heavy Rain,Lightning
+hurricane,Hurricane,Marine Tropical Storm,Marine Tropical Depression,Marine Hurricane/Typhoon,Tropical Storm,Tropical Depression 
+smokey,Wildfire,Dense Smoke,Volcanic Ashfall
+landslide,Avalanche,Debris Flow
+fog,Dense Fog,Freezing Fog
+

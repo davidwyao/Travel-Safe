@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Results for Rank Top 3 (RankDisplayActivity) -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/rectimage"
+        android:layout_height="400dp"
+        android:layout_width="400dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/rectangle">
+    </ImageView>
+
+    <!-- Prompt Top 3 Months -->
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 3 Months"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/month1" />
+
+    <!-- First Month -->
+    <TextView
+        android:id="@+id/month1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/view_Spacer"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <!-- Spacer for consistency -->
+    <TextView
+        android:id="@+id/view_Spacer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <!-- Second Month -->
+    <TextView
+        android:id="@+id/month2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/view_Spacer"
+        android:text="TextView" />
+
+    <!-- Third Month -->
+    <TextView
+        android:id="@+id/month3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/month2"/>
+
+</RelativeLayout>

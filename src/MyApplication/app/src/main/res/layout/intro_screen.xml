@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Intro Screen (MainActivity) -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/view_Spacer"
+        app:srcCompat="@drawable/logo" />
+
+    <!-- Spacer to have consistency -->
+    <TextView
+        android:id="@+id/view_Spacer"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true" />
+
+    <!-- Button for SEARCH BY TIME AND LOCATION -->
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/view_Spacer"
+        android:layout_marginBottom="20dp"
+        android:background="@color/golden_rod"
+        android:layout_margin="10dp"
+        android:text="SEARCH BY TIME AND LOCATION" />
+
+    <!-- Button for FIND BEST TIME FOR LOCATION -->
+    <Button
+        android:id="@+id/button_rank_time"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_search"
+        android:layout_centerHorizontal="true"
+        android:background="@color/dark_pink"
+        android:layout_margin="10dp"
+        android:text="FIND BEST TIME FOR LOCATION"
+        />
+
+    <!-- Button for FIND THE SAFEST PATH -->
+    <Button
+        android:id="@+id/button_safest"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_rank_time"
+        android:layout_centerHorizontal="true"
+        android:background="@color/turquoise"
+        android:layout_margin="10dp"
+        android:text="FIND THE SAFEST PATH"
+        />
+
+</RelativeLayout>
